@@ -12,7 +12,6 @@
     <artifactId>shop-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>shop-api</name>
-    <packaging>war</packaging>
     <url>www.dataoct.com</url>
     <description>Online Shopping</description>
 
