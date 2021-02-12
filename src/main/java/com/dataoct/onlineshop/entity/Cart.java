@@ -28,9 +28,7 @@ public class Cart implements Serializable {
 //    @JoinColumn(name = "email", referencedColumnName = "email")
     private User user;
 
-    @OneToMany(cascade = CascadeType.ALL,
-            fetch = FetchType.LAZY, orphanRemoval = true,
-            mappedBy = "cart")
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true, mappedBy = "cart")
     private Set<ProductInOrder> products = new HashSet<>();
 
     @Override

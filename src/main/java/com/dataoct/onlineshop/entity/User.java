@@ -34,6 +34,7 @@ public class User implements Serializable {
     @NotEmpty
     private String name;
     @NotEmpty
+    @Size(min = 10, message = "Length must be more than 10")
     private String phone;
     @NotEmpty
     private String address;
