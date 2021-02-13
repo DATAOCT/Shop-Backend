@@ -51,6 +51,9 @@ public class UserServiceImpl implements UserService {
             // initial Cart
             Cart savedCart = cartRepository.save(new Cart(savedUser));
             savedUser.setCart(savedCart);
+            
+            
+            
             return userRepository.save(savedUser);
 
         } catch (Exception e) {
