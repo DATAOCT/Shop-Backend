@@ -1,21 +1,6 @@
 ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 
 spring:
- 
-  mail:
-    default-encoding: UTF-8
-    host: smtp.gmail.com
-    username: <Gmail username>
-    password: <Gmail password>
-    port: 587
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-    protocol: smtp
-    test-connection: false
     
   datasource:
     driver-class-name: org.postgresql.Driver
@@ -30,7 +15,7 @@ spring:
     show-sql: false
 #    generate-ddl: false
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     database: postgresql
     properties:
       hibernate:
