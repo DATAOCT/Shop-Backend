@@ -56,9 +56,6 @@ INSERT INTO "public"."product_info" VALUES ('C0002', 2, '2018-03-10 12:11:51', '
 INSERT INTO "public"."product_info" VALUES ('B0001', 0, '2018-03-10 06:44:25', 'Books for learning Java', 'https://images-na.ssl-images-amazon.com/images/I/41f6Rd6ZEPL._SX363_BO1,204,203,200_.jpg', 'Core Java', 30.00, 0, 96, '2018-03-10 06:44:25');
 INSERT INTO "public"."product_info" VALUES ('B0004', 0, '2018-03-10 10:39:29', 'Java SE', 'https://www.pearsonhighered.com/assets/bigcovers/0/1/3/2/0132778041.jpg', 'Effective Java', 30.00, 0, 199, '2018-03-10 10:39:32');
 INSERT INTO "public"."product_info" VALUES ('B0005', 0, '2018-03-10 10:40:35', 'Java SE', 'https://images-na.ssl-images-amazon.com/images/I/51S8VRHA2FL._SX357_BO1,204,203,200_.jpg', 'Thinking in Java', 30.00, 0, 199, '2018-03-10 10:40:35');
-INSERT INTO "public"."product_info" VALUES ('D0002', 3, '2018-03-10 12:08:17', 'Awesome', 'https://starbuckssecretmenu.net/wp-content/uploads/2017/06/Starbucks-Violet-Drink.jpg', 'Starbucks Violet Drink', 2.00, 0, 200, '2018-03-10 12:08:17');
-INSERT INTO "public"."product_info" VALUES ('F0001', 1, '2018-03-10 12:15:05', 'Kids Party Food', 'http://asset1.marksandspencer.com/is/image/mands/MS_FD_F04C_00398503_NC_X_EC_0?$PDP_MAXI_ZOOM_NEW$', 'Chicken', 4.00, 0, 57, '2018-03-10 12:15:10');
-INSERT INTO "public"."product_info" VALUES ('F0002', 1, '2018-03-10 12:16:44', 'Family s', 'http://cdn1.thecomeback.com/wp-content/uploads/2017/05/mcdonalds_food-832x447.png', 'McDonald‘s Food', 20.00, 0, 22, '2018-03-10 12:16:44');
 
 
 -- ----------------------------
