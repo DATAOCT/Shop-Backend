@@ -1,6 +1,22 @@
 ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 
 spring:
+ 
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: <Gmail username>
+    password: <Gmail password>
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+    
   datasource:
     driver-class-name: org.postgresql.Driver
     username: postgres
@@ -31,9 +47,6 @@ spring:
 #  freemarker:
 #      cache: false
 
-
-
-
   queries:
     users-query: select email, password, active from users where email=?
     roles-query: select email, role from users where email=?
@@ -43,6 +56,5 @@ server:
 
 jwtSecret: me.zhulin
 jwtExpiration: 86400
-
 
 
